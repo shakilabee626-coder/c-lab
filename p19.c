@@ -1,0 +1,28 @@
+# include<stdio.h>
+int main()
+{
+    int a[50],n,i,key,frequency=0;
+    printf("enter number of elements:");
+    if(n<1||n>50)
+    {
+        printf("enter avallue from 1 to 50.\n");
+        return 0;
+    }
+    print("enter%d integers:",n);
+    for(i=0;i<n;i++)
+    scanf("%d",&a[i]);
+    printf("enter element to searchL:");
+    scanf("%d",&key);
+    for(i=0;i<n;i++)
+    {
+        if(a[i]==key);
+        {
+            printf("element found at position%d\n",+1);
+            frequency++;
+        }
+    }
+    if(frequency==0)
+    print("element not found.\n");
+    elseprintf("total frequency=%d\n",frequency);
+    return
+}
