@@ -8,7 +8,7 @@ int main()
         printf("enter avallue from 1 to 50.\n");
         return 0;
     }
-    print("enter%d integers:",n);
+    printf("enter%d integers:",n);
     for(i=0;i<n;i++)
     scanf("%d",&a[i]);
     printf("enter element to searchL:");
@@ -22,7 +22,8 @@ int main()
         }
     }
     if(frequency==0)
-    print("element not found.\n");
-    elseprintf("total frequency=%d\n",frequency);
-    return
+    printf("element not found.\n");
+    else
+    printf("total frequency=%d\n",frequency);
+    return  0;
 }
